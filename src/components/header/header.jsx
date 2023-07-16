@@ -1,10 +1,9 @@
 import "./header.css";
+import {ReactComponent as Logo} from "../../media/logo.svg";
 
 const Header = () => {
     return(
-        <div>
-            <h1 className="title">Dragon Porteño</h1>
-        </div>
+        <Logo className="title" />
     )
 };
 

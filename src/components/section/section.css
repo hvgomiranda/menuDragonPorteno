@@ -1,8 +1,8 @@
 .accordion-button{
-    background-color: wheat !important; 
+    background-color: #8b2c34 !important; 
 }
 .section{   
-    width: 500px;
+    width: 300px;
     margin: 2px;
 }
 .section_item{
@@ -11,6 +11,7 @@
 }
 .section_title{
     font-family: 'Barlow', sans-serif;
+    color: white;   
     font-size: 2rem;
 }
 .section_body div{
@@ -23,7 +24,7 @@
     display: grid;
     grid-template-columns: 50px repeat(6, 6fr);
     grid-template-rows: repeat(7, 7fr);
-    background-color: wheat;
+    background-color: #9a9392;
     border: 1px black solid;
     border-radius: 7px;
 }
