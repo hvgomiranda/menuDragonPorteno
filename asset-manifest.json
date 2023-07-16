@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/menuDragonPorteno/static/css/main.b54521b4.css",
+    "main.js": "/menuDragonPorteno/static/js/main.277219f6.js",
+    "index.html": "/menuDragonPorteno/index.html",
+    "main.b54521b4.css.map": "/menuDragonPorteno/static/css/main.b54521b4.css.map",
+    "main.277219f6.js.map": "/menuDragonPorteno/static/js/main.277219f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54521b4.css",
+    "static/js/main.277219f6.js"
+  ]
+}
