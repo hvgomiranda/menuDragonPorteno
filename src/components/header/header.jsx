@@ -3,7 +3,7 @@ import "./header.css";
 const Header = () => {
     return(
         <div>
-            <h1>Dragon Porteño</h1>
+            <h1 className="title">Dragon Porteño</h1>
         </div>
     )
 };
