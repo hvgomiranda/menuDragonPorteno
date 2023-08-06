@@ -1,8 +1,24 @@
 .App {
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    background-color: #d17a7a;
 }
 
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 30px;
+    position: relative;
+}
+
+.seccion{
+    margin: 50px
+}
+
+.logo{
+    position: absolute;
+    transform-style: preserve-3d;
+    z-index: -1;
+    height: 100%;
+    transform: translateZ(-30px) scale(1.5);
+}

@@ -1,7 +1,4 @@
 .title{
-    height: 200px;
-    width: 200px;
-    margin: 20px 0px 20px 0px;
-    justify-self: center;
-    align-self: center;
+    font-family: 'Julee', cursive;
+    margin: 5px 20px;
 }
