@@ -19,7 +19,6 @@ const Section = ({title}) => {
                         {filteredData.map(item => (
                             <div className="section_card" key={item.ID}>
                                 <div className="section_card_title">{item.ID}. {item.Nombre}</div>
-                                <div className="section_card_image"></div>
                                 <div className="section_card_description">{item.Aclaración}</div>
                                 <div className="section_card_price">{item.Precio}</div>
                             </div>
