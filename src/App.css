@@ -24,7 +24,7 @@
 }
 
 .seccion{
-    margin: 50px
+    margin: 25px;
 }
 
 .logo{
@@ -33,5 +33,5 @@
     z-index: -1;
     height: 100%;
     transform: translateZ(-40px) scale(1.5);
-    margin-top: 30vh;
+    margin-top: 50vh;
 }
