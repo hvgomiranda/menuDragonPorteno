@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/menuDragonPorteno/static/css/main.d7fa1844.css",
+    "main.css": "/menuDragonPorteno/static/css/main.fec9e135.css",
     "main.js": "/menuDragonPorteno/static/js/main.abccd093.js",
     "static/media/logo.svg": "/menuDragonPorteno/static/media/logo.ddf3f12480c302b8b8ef98d192d8a311.svg",
     "index.html": "/menuDragonPorteno/index.html",
-    "main.d7fa1844.css.map": "/menuDragonPorteno/static/css/main.d7fa1844.css.map",
+    "main.fec9e135.css.map": "/menuDragonPorteno/static/css/main.fec9e135.css.map",
     "main.abccd093.js.map": "/menuDragonPorteno/static/js/main.abccd093.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7fa1844.css",
+    "static/css/main.fec9e135.css",
     "static/js/main.abccd093.js"
   ]
 }
