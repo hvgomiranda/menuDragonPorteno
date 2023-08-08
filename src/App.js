@@ -8,34 +8,23 @@ import {ReactComponent as Logo} from "./media/logo.svg";
 
 function App() {
 
+  const tipos = [
+    "Entrada", "Sopa", "Chao-Fan (arroz)", "Chao-Mien (tallarines)", "Mi-Fen (fideos finos de arroz)",
+    "Pan-Tiao (fideos anchos de arroz)", "Arroz con salsa de soja", "Chop-Suey", "Pollo", "Carne", "Cerdo",
+    "Tofu", "Mariscos", "Especialidades", "Fideos con sopa", "Arroz con salsa especial",
+    "Za-Mien (Fideos crocantes con salsa de soja)", "Sushi (solo sábados y domingos)", "Postres",
+    "Bebidas", "Cerveza", "Café y Té"
+  ];
+
   return (
     <div className="App" style={{backgroundImage: `url($(backGroundImage))`}}>
       <div className='wrapper'>
         <Logo className='logo'/>
         <Header/>
         <div className='seccion'>
-          <Section title={"Entrada"}/>
-          <Section title={"Sopa"}/>
-          <Section title={"Chao-Fan (arroz)"}/>
-          <Section title={"Chao-Mien (tallarines)"}/>
-          <Section title={"Mi-Fen (fideos finos de arroz)"}/>
-          <Section title={"Pan-Tiao (fideos anchos de arroz)"}/>
-          <Section title={"Arroz con salsa de soja"}/>
-          <Section title={"Chop-Suey"}/>
-          <Section title={"Pollo"}/>
-          <Section title={"Carne"}/>
-          <Section title={"Cerdo"}/>  
-          <Section title={"Tofu"}/>
-          <Section title={"Mariscos"}/>
-          <Section title={"Especialidades"}/>
-          <Section title={"Fideos con sopa"}/>
-          <Section title={"Arroz con salsa especial"}/>
-          <Section title={"Za-Mien (Fideos crocantes con salsa de soja)"}/>
-          <Section title={"Sushi (solo sábados y domingos)"}/>
-          <Section title={"Postres"}/>
-          <Section title={"Bebidas"}/>
-          <Section title={"Cerveza"}/>
-          <Section title={"Café y Té"}/>
+          {tipos.map((tipo, index) => (
+            <Section key={index} title={tipo}/>
+          ))}
         </div>
         <Footer/>
       </div>

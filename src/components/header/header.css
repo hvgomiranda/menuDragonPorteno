@@ -1,5 +1,10 @@
 .title{
-    font-family: 'Julee', cursive;
+    font-family: 'The Last Shuriken';
+    font-weight: normal;
+    font-style: normal;
+    color: #8b2c34;
+    text-shadow: 0 0 1px black;
+    text-align: center;
     font-size: 4rem;
     margin: 30px 20px 0px 20px;
 }
