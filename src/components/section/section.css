@@ -1,5 +1,9 @@
 .accordion-button{
-    background-color: #9a9392 !important; 
+    background-color: #9a9392 !important;
+    border: 1px black solid !important;
+}
+.accordion-collapse{
+    border: 1px black solid !important;
 }
 .section{   
     width: 90vw;
@@ -9,7 +13,6 @@
     border-bottom: 1px;
     border: 1px black solid !important;
 }
-
 .accordion-button{
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 700;
@@ -20,7 +23,7 @@
     color: #8b2c34 !important;
 }
 .section_body{
-    background-color: #8b2c34;
+    background-color: #9a9392;
     padding: 10px !important;
 }
 .section_body div{
@@ -37,6 +40,7 @@
     grid-template-rows: repeat(7, 7fr);
     background-color: #9a9392;
     border-radius: 7px;
+    border: 1px solid black;
 }
 .section_card_title{
     grid-column: 1 / 8;
@@ -49,7 +53,7 @@
     line-height: 1.3rem;
     margin-top: 5px;
     margin-left: 5px;
-    z-index: 100;
+    padding-top: 5px;
 }
 .section_card_image{
     grid-column: 1 /2;
@@ -62,12 +66,12 @@
     width: 35px;
 }
 .section_card_description{
-    grid-column: 1 / 4;
-    grid-row: 5 / 8;
+    grid-column: 1 / 6;
+    grid-row: 6 / 8;
     justify-self: start;
     align-self: center;
     height: 100%;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
     margin-left: 5px;
 }
