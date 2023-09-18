@@ -3,3 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
+
+@font-face {
+  font-family: "TheLastShuriken-Regular, The Last Shuriken";  
+  src: local("TheLastShuriken-Regular, The Last Shuriken"),
+       url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff") format('woff'),
+       url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff2") format('woff2');
+}
