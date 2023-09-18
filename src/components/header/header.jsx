@@ -1,8 +1,9 @@
 import "./header.css";
+import {default as LogoTitulo} from "../../media/logo-dragon-porteno2.svg";
 
 const Header = () => {
     return(
-        <h1 className="title">Dragon Porteno</h1>
+        <img src={LogoTitulo} className="logoTitulo" />
     )
 };
 

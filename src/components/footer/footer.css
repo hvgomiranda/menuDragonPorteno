@@ -15,6 +15,11 @@
 
 .footer p{
     text-align: center;
+    margin: 2px;
+}
+
+.footer_section{
+    margin-bottom: 20px !important;
 }
 
 .iconos{

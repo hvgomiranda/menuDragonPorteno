@@ -5,7 +5,7 @@
     "Precio": "$2.000",
     "Tipo": "Entrada",
     "Ingredientes": "verdura o carne",
-    "Aclaración": "4 unidades"
+    "Aclaración": "4 unid."
   },
   {
     "ID": 2,
@@ -76,7 +76,7 @@
     "Nombre": "Pan chino de cerdo con verdura",
     "Precio": "$2.800",
     "Tipo": "Entrada",
-    "Ingredientes": "cerdo con verduras",
+    "Ingredientes": "cerdo con verd.",
     "Aclaración": "2 unid."
   },
   {
@@ -948,7 +948,7 @@
     "Nombre": "Tofu familiar",
     "Precio": "$4.600",
     "Tipo": "Tofu",
-    "Ingredientes": "Cerdo y verduras",
+    "Ingredientes": "Cerdo y verd.",
     "Aclaración": "Picante"
   },
   {
@@ -1092,7 +1092,7 @@
     "Nombre": "Entrada china mixta chica",
     "Precio": "$4.500",
     "Tipo": "Especialidades",
-    "Ingredientes": "Chorizo chino, algas marinas, queso de soja, cerdo ahumado, tempura y huevo con salsa de soja",
+    "Ingredientes": "Chorizo chino, algas, queso de soja, cerdo ahumado, tempura y huevo con salsa de soja",
     "Aclaración": ""
   },
   {
@@ -1397,7 +1397,7 @@
     "Precio": "$700",
     "Tipo": "Bebidas",
     "Ingredientes": "",
-    "Aclaración": "LÍNEA"
+    "Aclaración": "Línea Coca-Cola"
   },
   {
     "ID": 301,
@@ -1436,7 +1436,7 @@
     "Nombre": "Exprimido",
     "Precio": "$1.200",
     "Tipo": "Bebidas",
-    "Ingredientes": "Banana, maracuyá, mango, frutos rojos o ananá",
+    "Ingredientes": "Frutas frescas",
     "Aclaración": ""
   },
   {
@@ -1444,7 +1444,7 @@
     "Nombre": "Licuados",
     "Precio": "$1.500",
     "Tipo": "Bebidas",
-    "Ingredientes": "",
+    "Ingredientes": "Frutas frescas",
     "Aclaración": ""
   },
   {

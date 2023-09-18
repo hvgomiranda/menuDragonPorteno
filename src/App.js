@@ -13,14 +13,14 @@ function App() {
     "Pan-Tiao (fideos anchos de arroz)", "Arroz con salsa de soja", "Chop-Suey", "Pollo", "Carne", "Cerdo",
     "Tofu", "Mariscos", "Especialidades", "Fideos con sopa", "Arroz con salsa especial",
     "Za-Mien (Fideos crocantes con salsa de soja)", "Sushi (solo sábados y domingos)", "Postres",
-    "Bebidas", "Cerveza", "Café e infusiones"
+    "Bebidas", "Cerveza", "Café e infusiones", "Vinos"
   ];
 
   return (
     <div className="App" style={{backgroundImage: `url($(backGroundImage))`}}>
       <div className='wrapper'>
-        <Logo className='logo'/>
         <Header/>
+        <Logo className='logo'/>
         <div className='seccion'>
           {tipos.map((tipo, index) => (
             <Section key={index} title={tipo}/>
