@@ -2,6 +2,7 @@ import './App.css';
 import Section from "./components/section/section.jsx";
 import Header from "./components/header/header.jsx";
 import Footer from "./components/footer/footer.jsx";
+import FlippableCard from './components/flippable-card/flippable-card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {ReactComponent as Logo} from "./media/logo.svg";
 

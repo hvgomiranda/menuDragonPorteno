@@ -1,0 +1,108 @@
+.card {
+    height: 100% !important;
+    width: 100%;
+
+    transform-style: preserve-3d;
+
+    position: relative;
+
+    background-color: #9a9392;
+
+    user-select: none;
+    cursor: pointer;
+
+    --bs-card-border-color: none !important;
+
+}
+
+.card-back,
+.card-front{
+    height: 100% !important;
+    width: 100%;
+
+    border: 2px solid black !important;
+    border-radius: 5px;
+
+    display: flex;
+    
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9a9392;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #8b2c34;
+}
+
+.card-front{
+    display: flex;
+}
+
+.card-back{
+    transform: rotateY(180deg);
+}
+
+.card_title{
+    justify-self: center;
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.1rem;
+    margin: 5px;
+    width: 100%;
+}
+
+.card_price{
+    justify-self: flex-end;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.card_description{
+    justify-self: start;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 0.9rem;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.flip-exit{
+    transform: rotateY(0deg);
+}
+
+.flip-exit-active{
+    transform: rotateY(180deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.flip-exit-done{
+    transform: rotateY(180deg);
+}
+
+.flip-enter{
+    transform: rotateY(180deg);
+}
+
+.flip-enter-active{
+    transform: rotateY(0deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
+
+}
+
+.flip-enter-done{
+    transform: rotateY(0deg);
+}

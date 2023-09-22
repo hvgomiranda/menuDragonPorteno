@@ -7,6 +7,8 @@
 @font-face {
   font-family: "TheLastShuriken-Regular, The Last Shuriken";  
   src: local("TheLastShuriken-Regular, The Last Shuriken"),
-       url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff") format('woff'),
-       url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff2") format('woff2');
+      url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff") format('woff'),
+      url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff2") format('woff2'),
+      url("./fonts/TheLastShuriken/TheLastShuriken-Regular.ttf") format('truetype'),
+      url("./fonts/TheLastShuriken/TheLastShuriken-Regular.eot") format('eot');
 }
