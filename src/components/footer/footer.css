@@ -5,6 +5,7 @@
     align-items: center;
     padding: 10px;
     width: 90vw;
+    max-width: 750px;
     font-family: 'Open Sans', sans-serif;
     border: black 1px solid;
     margin-bottom: 10px;
