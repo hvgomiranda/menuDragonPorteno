@@ -33,3 +33,12 @@
     transform: translateZ(-80px) scale(3.5);
     margin-top: 50vh;
 }
+
+@font-face {
+    font-family: The Last Shuriken;  
+    src: local(The Last Shuriken),
+        url("../public/TheLastShuriken/TheLastShuriken-Regular.woff") format('woff'),
+        url("../public/TheLastShuriken/TheLastShuriken-Regular.woff2") format('woff2'),
+        url("../public/TheLastShuriken/TheLastShuriken-Regular.ttf") format('truetype'),
+        url("../public/TheLastShuriken/TheLastShuriken-Regular.eot") format('eot');
+  }
