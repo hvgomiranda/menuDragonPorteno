@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/menuDragonPorteno/static/css/main.5cb500ef.css",
+    "main.css": "/menuDragonPorteno/static/css/main.1b304594.css",
     "main.js": "/menuDragonPorteno/static/js/main.8bb576d0.js",
     "static/media/TheLastShuriken-Regular.eot": "/menuDragonPorteno/static/media/TheLastShuriken-Regular.d5c6ff2df5af1e22096f.eot",
     "static/media/TheLastShuriken-Regular.ttf": "/menuDragonPorteno/static/media/TheLastShuriken-Regular.8f885ced4a3d085f8c0c.ttf",
@@ -9,11 +9,11 @@
     "static/media/TheLastShuriken-Regular.woff2": "/menuDragonPorteno/static/media/TheLastShuriken-Regular.f1dc2b789cc0942fceb1.woff2",
     "static/media/logo-dragon-porteno.svg": "/menuDragonPorteno/static/media/logo-dragon-porteno.a4156bf5aa4604dd686f8bf2a24faa81.svg",
     "index.html": "/menuDragonPorteno/index.html",
-    "main.5cb500ef.css.map": "/menuDragonPorteno/static/css/main.5cb500ef.css.map",
+    "main.1b304594.css.map": "/menuDragonPorteno/static/css/main.1b304594.css.map",
     "main.8bb576d0.js.map": "/menuDragonPorteno/static/js/main.8bb576d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cb500ef.css",
+    "static/css/main.1b304594.css",
     "static/js/main.8bb576d0.js"
   ]
 }
