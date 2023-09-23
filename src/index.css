@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: "TheLastShuriken-Regular, The Last Shuriken";  
-  src: local("TheLastShuriken-Regular, The Last Shuriken"),
+  font-family: "The Last Shuriken";  
+  src: local("The Last Shuriken"),
       url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff") format('woff'),
       url("./fonts/TheLastShuriken/TheLastShuriken-Regular.woff2") format('woff2'),
       url("./fonts/TheLastShuriken/TheLastShuriken-Regular.ttf") format('truetype'),

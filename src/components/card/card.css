@@ -30,11 +30,6 @@
 
     position: absolute;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     background-color: #9a9392;
 
     font-family: 'Open Sans', sans-serif;
@@ -43,9 +38,19 @@
 
 .card-front{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2px;
+
 }
 
 .card-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 2px;
     transform: rotateY(180deg);
 }
 
@@ -55,8 +60,8 @@
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.1rem;
-    margin: 5px;
     width: 100%;
+    margin: 5px 2px 0px 2px;
 }
 
 .card_price{
@@ -64,18 +69,14 @@
     align-self: center;
     font-size: 1rem;
     font-weight: 500;
-    margin-right: 5px;
-    margin-top: 5px;
+    margin: 5px 2px;
 }
 
 .card_description{
-    justify-self: start;
-    align-self: center;
     font-size: 1rem;
     line-height: 0.9rem;
     font-weight: 500;
-    margin-left: 5px;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .flip-exit{

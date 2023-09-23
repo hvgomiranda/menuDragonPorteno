@@ -5,7 +5,7 @@
     "Precio": "$2.000",
     "Tipo": "Entrada",
     "Ingredientes": "verdura o carne",
-    "Aclaración": "4 unid."
+    "Aclaración": "4 unidades"
   },
   {
     "ID": 2,
@@ -77,7 +77,7 @@
     "Precio": "$2.800",
     "Tipo": "Entrada",
     "Ingredientes": "cerdo con verd.",
-    "Aclaración": "2 unid."
+    "Aclaración": "2 unidades"
   },
   {
     "ID": 10,
@@ -1436,7 +1436,7 @@
     "Nombre": "Exprimido",
     "Precio": "$1.200",
     "Tipo": "Bebidas",
-    "Ingredientes": "Frutas frescas",
+    "Ingredientes": "Banana, maracuyá, mango, frutos rojos o ananá",
     "Aclaración": ""
   },
   {
