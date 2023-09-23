@@ -35,9 +35,8 @@
 }
 
 @font-face {
-    font-family: The Last Shuriken;  
-    src: local(The Last Shuriken),
-        url("../public/TheLastShuriken/TheLastShuriken-Regular.woff") format('woff'),
+    font-family: "The Last Shuriken";  
+    src: url("../public/TheLastShuriken/TheLastShuriken-Regular.woff") format('woff'),
         url("../public/TheLastShuriken/TheLastShuriken-Regular.woff2") format('woff2'),
         url("../public/TheLastShuriken/TheLastShuriken-Regular.ttf") format('truetype'),
         url("../public/TheLastShuriken/TheLastShuriken-Regular.eot") format('eot');

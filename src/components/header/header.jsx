@@ -1,5 +1,5 @@
 import "./header.css";
-import {default as LogoTitulo} from "../../media/logo-dragon-porteno2.svg";
+import {default as LogoTitulo} from "../../media/logo-dragon-porteno.svg";
 
 const Header = () => {
     return(
