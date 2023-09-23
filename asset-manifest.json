@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/menuDragonPorteno/static/css/main.4eaf69da.css",
-    "main.js": "/menuDragonPorteno/static/js/main.4bc95f1d.js",
+    "main.css": "/menuDragonPorteno/static/css/main.5cb500ef.css",
+    "main.js": "/menuDragonPorteno/static/js/main.8bb576d0.js",
     "static/media/TheLastShuriken-Regular.eot": "/menuDragonPorteno/static/media/TheLastShuriken-Regular.d5c6ff2df5af1e22096f.eot",
     "static/media/TheLastShuriken-Regular.ttf": "/menuDragonPorteno/static/media/TheLastShuriken-Regular.8f885ced4a3d085f8c0c.ttf",
     "static/media/logo.svg": "/menuDragonPorteno/static/media/logo.ddf3f12480c302b8b8ef98d192d8a311.svg",
     "static/media/TheLastShuriken-Regular.woff": "/menuDragonPorteno/static/media/TheLastShuriken-Regular.a47824c556ca640f0183.woff",
     "static/media/TheLastShuriken-Regular.woff2": "/menuDragonPorteno/static/media/TheLastShuriken-Regular.f1dc2b789cc0942fceb1.woff2",
-    "static/media/logo-dragon-porteno2.svg": "/menuDragonPorteno/static/media/logo-dragon-porteno2.939bb1a0f02b3394c910b2da3d6c41c5.svg",
+    "static/media/logo-dragon-porteno.svg": "/menuDragonPorteno/static/media/logo-dragon-porteno.a4156bf5aa4604dd686f8bf2a24faa81.svg",
     "index.html": "/menuDragonPorteno/index.html",
-    "main.4eaf69da.css.map": "/menuDragonPorteno/static/css/main.4eaf69da.css.map",
-    "main.4bc95f1d.js.map": "/menuDragonPorteno/static/js/main.4bc95f1d.js.map"
+    "main.5cb500ef.css.map": "/menuDragonPorteno/static/css/main.5cb500ef.css.map",
+    "main.8bb576d0.js.map": "/menuDragonPorteno/static/js/main.8bb576d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eaf69da.css",
-    "static/js/main.4bc95f1d.js"
+    "static/css/main.5cb500ef.css",
+    "static/js/main.8bb576d0.js"
   ]
 }
