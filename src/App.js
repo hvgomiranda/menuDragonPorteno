@@ -2,7 +2,6 @@ import './App.css';
 import Section from "./components/section/section.jsx";
 import Header from "./components/header/header.jsx";
 import Footer from "./components/footer/footer.jsx";
-import FlippableCard from './components/flippable-card/flippable-card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {ReactComponent as Logo} from "./media/logo.svg";
 
@@ -14,8 +13,11 @@ function App() {
     "Pan-Tiao (fideos anchos de arroz)", "Arroz con salsa de soja", "Chop-Suey", "Pollo", "Carne", "Cerdo",
     "Tofu", "Mariscos", "Especialidades", "Fideos con sopa", "Arroz con salsa especial",
     "Za-Mien (Fideos crocantes con salsa de soja)", "Sushi (solo sábados y domingos)", "Postres",
-    "Bebidas", "Cerveza", "Café e infusiones", "Vinos"
+    "Bebidas", "Cerveza", "Café e infusiones", "Vinos tintos", "Vinos blancos"
   ];
+  const tiposVinos = [
+
+  ]
 
   return (
     <div className="App" style={{backgroundImage: `url($(backGroundImage))`}}>
