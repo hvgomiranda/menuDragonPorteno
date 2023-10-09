@@ -3,6 +3,7 @@
     "ID": 1,
     "Nombre": "Arrolladito primavera",
     "Precio": "$2.000",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "verdura o carne",
     "Aclaración": "4 unidades"
@@ -11,22 +12,25 @@
     "ID": 2,
     "Nombre": "Ravioles a la plancha",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": "10 unidades"
   },
   {
     "ID": 3,
-    "Nombre": "Prickles",
+    "Nombre": "Prickles (agridulce)",
     "Precio": "$2.000",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
-    "Aclaración": "Agridulce"
+    "Aclaración": ""
   },
   {
     "ID": 4,
     "Nombre": "Ravioles hervidos de verdura",
     "Precio": "$4.100",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": "4 unidades"
@@ -35,6 +39,7 @@
     "ID": 5,
     "Nombre": "Ravioles hervidos de cerdo",
     "Precio": "$4.100",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": "4 unidades"
@@ -43,6 +48,7 @@
     "ID": 6,
     "Nombre": "Wan-Tan frito",
     "Precio": "$3.600",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": "8 unidades"
@@ -51,6 +57,7 @@
     "ID": 7,
     "Nombre": "Pasta de langostinos",
     "Precio": "$3.200",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": ""
@@ -59,6 +66,7 @@
     "ID": 8,
     "Nombre": "Panqueques al verdeo",
     "Precio": "$2.700",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": ""
@@ -67,6 +75,7 @@
     "ID": 9,
     "Nombre": "Algas marinas",
     "Precio": "$3.300",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": ""
@@ -75,14 +84,16 @@
     "ID": "9B",
     "Nombre": "Pan chino de cerdo con verdura",
     "Precio": "$2.800",
+    "Precio 350": "",
     "Tipo": "Entrada",
-    "Ingredientes": "cerdo con verd.",
+    "Ingredientes": "cerdo con verduras",
     "Aclaración": "2 unidades"
   },
   {
     "ID": 10,
     "Nombre": "Alitas de pollo frito",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Entrada",
     "Ingredientes": "",
     "Aclaración": "8 unidades"
@@ -91,30 +102,34 @@
     "ID": "11A",
     "Nombre": "Sopa de la casa",
     "Precio": "$2.900",
+    "Precio 350": "",
     "Tipo": "Sopa",
-    "Ingredientes": "Pasta de pescado, bambú y hongos",
+    "Ingredientes": "Sopa espesa con pasta de pescado, bambú, hongos y albóndigas de pescado.",
     "Aclaración": ""
   },
   {
     "ID": 11,
     "Nombre": "Sopa de verdura con tofu",
     "Precio": "$2.600",
+    "Precio 350": "",
     "Tipo": "Sopa",
-    "Ingredientes": "",
+    "Ingredientes": "Caldo de verdura con tofu.",
     "Aclaración": ""
   },
   {
     "ID": 15,
     "Nombre": "Sopa agripicante",
     "Precio": "$2.900",
+    "Precio 350": "",
     "Tipo": "Sopa",
-    "Ingredientes": "Huevo, cerdo, bambú, hongo y tofu",
+    "Ingredientes": "Huevo revuelto, tiritas de cerdo, bambú, hongo oreja y tofu.",
     "Aclaración": ""
   },
   {
     "ID": 16,
     "Nombre": "Sopa de huevo",
     "Precio": "$2.400",
+    "Precio 350": "",
     "Tipo": "Sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -123,6 +138,7 @@
     "ID": 17,
     "Nombre": "Sopa Wa-Tan",
     "Precio": "$2.900",
+    "Precio 350": "",
     "Tipo": "Sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -131,6 +147,7 @@
     "ID": 18,
     "Nombre": "Sopa de albóndigas de pescado",
     "Precio": "$2.900",
+    "Precio 350": "",
     "Tipo": "Sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -139,6 +156,7 @@
     "ID": 20,
     "Nombre": "Sopa Miso",
     "Precio": "$2.600",
+    "Precio 350": "",
     "Tipo": "Sopa",
     "Ingredientes": "Verduras, tofu y algas",
     "Aclaración": ""
@@ -147,78 +165,88 @@
     "ID": "20A",
     "Nombre": "Sopa de mariscos",
     "Precio": "$4.300",
+    "Precio 350": "",
     "Tipo": "Sopa",
-    "Ingredientes": "",
+    "Ingredientes": "Caldo de cerdo y pollo, jengibre, mejillones, camarones, calamares, kanikama, tempura y albóndigas de pescado.",
     "Aclaración": ""
   },
   {
     "ID": 21,
     "Nombre": "Carne",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "",
+    "Ingredientes": "Arroz saltado con huevo, cebolla de verdeo, zanahoria y carne.",
     "Aclaración": ""
   },
   {
     "ID": 22,
     "Nombre": "Cerdo ahumado",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "",
+    "Ingredientes": "Arroz saltado con huevo, cebolla de verdeo, zanahoria y cerdo ahumado.",
     "Aclaración": ""
   },
   {
     "ID": 23,
     "Nombre": "Pollo",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "",
+    "Ingredientes": "Arroz saltado con huevo, cebolla de verdeo, zanahoria y pollo.",
     "Aclaración": ""
   },
   {
     "ID": 24,
     "Nombre": "Camarones",
     "Precio": "$5.800",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "",
+    "Ingredientes": "Arroz saltado con huevo, cebolla de verdeo, zanahoria y camarones.",
     "Aclaración": ""
   },
   {
     "ID": 25,
     "Nombre": "Huevo",
     "Precio": "$4.000",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "",
+    "Ingredientes": "Arroz saltado con huevo, cebolla de verdeo y zanahoria.",
     "Aclaración": ""
   },
   {
     "ID": 26,
     "Nombre": "Verdura",
     "Precio": "$4.000",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "",
+    "Ingredientes": "Arroz saltado con huevo, cebolla de verdeo, zanahoria, tofu y arvejas.",
     "Aclaración": ""
   },
   {
     "ID": 27,
     "Nombre": "Mixto",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "carne, cerdo y pollo",
+    "Ingredientes": "Arroz saltado con huevo, cebolla de verdeo, zanahoria, carne, cerdo y pollo.",
     "Aclaración": ""
   },
   {
     "ID": 29,
     "Nombre": "Arroz blanco",
     "Precio": "$900",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
-    "Ingredientes": "",
+    "Ingredientes": "Arroz blanco sin adicionales.",
     "Aclaración": ""
   },
   {
     "ID": "29A",
     "Nombre": "Mariscos",
     "Precio": "$5.800",
+    "Precio 350": "",
     "Tipo": "Chao-Fan (arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -227,6 +255,7 @@
     "ID": 30,
     "Nombre": "Carne",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -235,6 +264,7 @@
     "ID": 31,
     "Nombre": "Cerdo ahumado",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -243,6 +273,7 @@
     "ID": 32,
     "Nombre": "Pollo",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -251,6 +282,7 @@
     "ID": 33,
     "Nombre": "Camarones",
     "Precio": "$5.800",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -259,6 +291,7 @@
     "ID": 34,
     "Nombre": "Verdura",
     "Precio": "$4.000",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -267,14 +300,16 @@
     "ID": 35,
     "Nombre": "Mixto",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
-    "Ingredientes": "carne, cerdo y pollo",
+    "Ingredientes": "carne, cerdo y pollo.",
     "Aclaración": ""
   },
   {
     "ID": 36,
     "Nombre": "Verduras y hongo chino",
     "Precio": "$5.300",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -283,6 +318,7 @@
     "ID": 37,
     "Nombre": "Mariscos",
     "Precio": "$5.800",
+    "Precio 350": "",
     "Tipo": "Chao-Mien (tallarines)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -291,6 +327,7 @@
     "ID": 38,
     "Nombre": "Carne",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -299,6 +336,7 @@
     "ID": 39,
     "Nombre": "Cerdo ahumado",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -307,6 +345,7 @@
     "ID": 40,
     "Nombre": "Pollo",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -315,6 +354,7 @@
     "ID": 41,
     "Nombre": "Camarones",
     "Precio": "$5.900",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -323,6 +363,7 @@
     "ID": 42,
     "Nombre": "Verdura",
     "Precio": "$4.200",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -331,6 +372,7 @@
     "ID": 43,
     "Nombre": "Mixto",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "carne, cerdo y pollo",
     "Aclaración": ""
@@ -339,6 +381,7 @@
     "ID": 44,
     "Nombre": "Verduras y hongo chino",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -347,6 +390,7 @@
     "ID": 45,
     "Nombre": "Mariscos",
     "Precio": "$5.900",
+    "Precio 350": "",
     "Tipo": "Mi-Fen (fideos finos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -355,6 +399,7 @@
     "ID": 46,
     "Nombre": "Carne",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -363,6 +408,7 @@
     "ID": 47,
     "Nombre": "Cerdo ahumado",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -371,6 +417,7 @@
     "ID": 48,
     "Nombre": "Pollo",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -379,6 +426,7 @@
     "ID": 49,
     "Nombre": "Camarones",
     "Precio": "$5.900",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -387,6 +435,7 @@
     "ID": 50,
     "Nombre": "Verdura",
     "Precio": "$4.200",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -395,6 +444,7 @@
     "ID": 51,
     "Nombre": "Mixto",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "carne, cerdo y pollo",
     "Aclaración": ""
@@ -403,6 +453,7 @@
     "ID": "51A",
     "Nombre": "Mariscos",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -411,6 +462,7 @@
     "ID": "51B",
     "Nombre": "Verduras y hongo chino",
     "Precio": "$5.900",
+    "Precio 350": "",
     "Tipo": "Pan-Tiao (fideos anchos de arroz)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -419,6 +471,7 @@
     "ID": 52,
     "Nombre": "Carne",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "",
     "Aclaración": ""
@@ -427,6 +480,7 @@
     "ID": 53,
     "Nombre": "Cerdo ahumado",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "",
     "Aclaración": ""
@@ -435,6 +489,7 @@
     "ID": 54,
     "Nombre": "Pollo",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "",
     "Aclaración": ""
@@ -443,6 +498,7 @@
     "ID": 55,
     "Nombre": "Camarones",
     "Precio": "$5.900",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "",
     "Aclaración": ""
@@ -451,6 +507,7 @@
     "ID": 56,
     "Nombre": "Verdura",
     "Precio": "$4.200",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "",
     "Aclaración": ""
@@ -459,6 +516,7 @@
     "ID": 57,
     "Nombre": "Mixto",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "carne, cerdo y pollo",
     "Aclaración": ""
@@ -467,6 +525,7 @@
     "ID": 58,
     "Nombre": "Mariscos",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "",
     "Aclaración": ""
@@ -475,6 +534,7 @@
     "ID": 65,
     "Nombre": "Hongos chinos y bambú",
     "Precio": "$5.900",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa de soja",
     "Ingredientes": "",
     "Aclaración": ""
@@ -483,6 +543,7 @@
     "ID": 59,
     "Nombre": "Carne",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa curry",
     "Ingredientes": "",
     "Aclaración": ""
@@ -491,6 +552,7 @@
     "ID": 60,
     "Nombre": "Cerdo ahumado",
     "Precio": "$5.300",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa curry",
     "Ingredientes": "",
     "Aclaración": ""
@@ -499,6 +561,7 @@
     "ID": 61,
     "Nombre": "Pollo",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa curry",
     "Ingredientes": "",
     "Aclaración": ""
@@ -507,6 +570,7 @@
     "ID": 62,
     "Nombre": "Camarones",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa curry",
     "Ingredientes": "",
     "Aclaración": ""
@@ -515,6 +579,7 @@
     "ID": 63,
     "Nombre": "Verdura",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa curry",
     "Ingredientes": "",
     "Aclaración": ""
@@ -523,6 +588,7 @@
     "ID": 64,
     "Nombre": "Mixto",
     "Precio": "$5.300",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa curry",
     "Ingredientes": "carne, cerdo y pollo",
     "Aclaración": ""
@@ -531,6 +597,7 @@
     "ID": "58A",
     "Nombre": "Mariscos",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa curry",
     "Ingredientes": "",
     "Aclaración": ""
@@ -539,6 +606,7 @@
     "ID": 66,
     "Nombre": "Carne",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -547,6 +615,7 @@
     "ID": 67,
     "Nombre": "Cerdo ahumado",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -555,6 +624,7 @@
     "ID": 68,
     "Nombre": "Pollo",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -563,6 +633,7 @@
     "ID": 69,
     "Nombre": "Camarones",
     "Precio": "$5.800",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -571,6 +642,7 @@
     "ID": 70,
     "Nombre": "Verdura",
     "Precio": "$4.000",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -579,6 +651,7 @@
     "ID": 71,
     "Nombre": "Mixto",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "carne, cerdo y pollo",
     "Aclaración": ""
@@ -587,6 +660,7 @@
     "ID": 72,
     "Nombre": "Verduras chinas de estación",
     "Precio": "$4.000",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -595,6 +669,7 @@
     "ID": 73,
     "Nombre": "Verduras chinas mixto",
     "Precio": "$4.300",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -603,6 +678,7 @@
     "ID": 75,
     "Nombre": "Verduras chinas con hongos mixtos",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Chop-Suey",
     "Ingredientes": "",
     "Aclaración": ""
@@ -611,6 +687,7 @@
     "ID": 78,
     "Nombre": "A la plancha",
     "Precio": "$5.700",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -619,6 +696,7 @@
     "ID": "79A",
     "Nombre": "Con verduras y jengibre",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -627,6 +705,7 @@
     "ID": 79,
     "Nombre": "Con ananá y verduras",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": "Agridulce"
@@ -635,6 +714,7 @@
     "ID": 80,
     "Nombre": "Con champiñón y zanahoria",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -643,6 +723,7 @@
     "ID": 81,
     "Nombre": "Curry con verduras",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -651,6 +732,7 @@
     "ID": 82,
     "Nombre": "Hongos chinos y bambú",
     "Precio": "$5.700",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -659,6 +741,7 @@
     "ID": 83,
     "Nombre": "Salsa de ostras y verduras",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -667,6 +750,7 @@
     "ID": 84,
     "Nombre": "Salsa Kon-Pao y verduras",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": "Picante"
@@ -675,6 +759,7 @@
     "ID": 85,
     "Nombre": "Almendras y verduras",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -683,6 +768,7 @@
     "ID": 88,
     "Nombre": "Nido de papas y verduras",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -691,6 +777,7 @@
     "ID": 89,
     "Nombre": "Buñuelos fritos con ananá y verduras",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": "Agridulce"
@@ -699,6 +786,7 @@
     "ID": 90,
     "Nombre": "Pollo con verdeo y cebolla",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -707,6 +795,7 @@
     "ID": "90A",
     "Nombre": "Pollo salteado al Chian-Pao",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -715,6 +804,7 @@
     "ID": "90C",
     "Nombre": "Buñuelos de pollo frito",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Pollo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -723,6 +813,7 @@
     "ID": 91,
     "Nombre": "A la plancha",
     "Precio": "$6.200",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -731,6 +822,7 @@
     "ID": 92,
     "Nombre": "Salsa de ostras y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -739,6 +831,7 @@
     "ID": "92A",
     "Nombre": "Mix de verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -747,6 +840,7 @@
     "ID": 93,
     "Nombre": "Cebolla y verdeo",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -755,6 +849,7 @@
     "ID": 94,
     "Nombre": "Ananá y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": "Agridulce"
@@ -763,6 +858,7 @@
     "ID": 95,
     "Nombre": "Nido de papas y verduras",
     "Precio": "$6.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -771,6 +867,7 @@
     "ID": 96,
     "Nombre": "Con verduras y jengibre",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -779,6 +876,7 @@
     "ID": 97,
     "Nombre": "Hongos chinos y bambú",
     "Precio": "$6.200",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -787,6 +885,7 @@
     "ID": 98,
     "Nombre": "Champiñones y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -795,6 +894,7 @@
     "ID": 99,
     "Nombre": "Curry con verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -803,6 +903,7 @@
     "ID": 100,
     "Nombre": "Kon-Pao con verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": "Picante"
@@ -811,6 +912,7 @@
     "ID": 101,
     "Nombre": "Salsa Chian-Pao y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -819,6 +921,7 @@
     "ID": 102,
     "Nombre": "Verdura china con carne",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Carne",
     "Ingredientes": "",
     "Aclaración": ""
@@ -827,6 +930,7 @@
     "ID": 104,
     "Nombre": "A la plancha",
     "Precio": "$6.200",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -835,6 +939,7 @@
     "ID": "105A",
     "Nombre": "Champiñones y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -843,6 +948,7 @@
     "ID": 105,
     "Nombre": "Mix de verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -851,6 +957,7 @@
     "ID": 106,
     "Nombre": "Cebolla y verdeo",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -859,6 +966,7 @@
     "ID": 107,
     "Nombre": "Ananá y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": "Agridulce"
@@ -867,6 +975,7 @@
     "ID": 108,
     "Nombre": "Nido de papas y verduras",
     "Precio": "$6.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -875,6 +984,7 @@
     "ID": 109,
     "Nombre": "Buñuelos fritos con ananá",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -883,6 +993,7 @@
     "ID": 110,
     "Nombre": "Hongos chinos y bambú",
     "Precio": "$6.200",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "Salsa agridulce",
     "Aclaración": ""
@@ -891,6 +1002,7 @@
     "ID": 111,
     "Nombre": "Al tirilla con morrones",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": "Agridulce"
@@ -899,6 +1011,7 @@
     "ID": 112,
     "Nombre": "Salsa Chian-Pao y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -907,6 +1020,7 @@
     "ID": 113,
     "Nombre": "Salsa Pekín",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -915,6 +1029,7 @@
     "ID": 114,
     "Nombre": "Salsa Kon-Pao y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": "Picante"
@@ -923,6 +1038,7 @@
     "ID": 115,
     "Nombre": "Salsa de ostras y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -931,6 +1047,7 @@
     "ID": 116,
     "Nombre": "Salsa de curry y verduras",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Cerdo",
     "Ingredientes": "",
     "Aclaración": ""
@@ -939,6 +1056,7 @@
     "ID": 117,
     "Nombre": "Tofu a la plancha caliente",
     "Precio": "$4.900",
+    "Precio 350": "",
     "Tipo": "Tofu",
     "Ingredientes": "Cerdo",
     "Aclaración": ""
@@ -947,14 +1065,16 @@
     "ID": 118,
     "Nombre": "Tofu familiar",
     "Precio": "$4.600",
+    "Precio 350": "",
     "Tipo": "Tofu",
-    "Ingredientes": "Cerdo y verd.",
+    "Ingredientes": "Cerdo y verduras",
     "Aclaración": "Picante"
   },
   {
     "ID": 120,
     "Nombre": "Tofu Hon-Sao",
     "Precio": "$4.600",
+    "Precio 350": "",
     "Tipo": "Tofu",
     "Ingredientes": "",
     "Aclaración": "Vegetariano"
@@ -963,6 +1083,7 @@
     "ID": 121,
     "Nombre": "Mapo",
     "Precio": "$4.600",
+    "Precio 350": "",
     "Tipo": "Tofu",
     "Ingredientes": "Cerdo",
     "Aclaración": "Picante"
@@ -971,6 +1092,7 @@
     "ID": 122,
     "Nombre": "Mixto",
     "Precio": "$4.600",
+    "Precio 350": "",
     "Tipo": "Tofu",
     "Ingredientes": "Carne, pollo y cerdo",
     "Aclaración": ""
@@ -979,6 +1101,7 @@
     "ID": 123,
     "Nombre": "A la plancha",
     "Precio": "$6.500",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -987,6 +1110,7 @@
     "ID": 124,
     "Nombre": "Langostinos sartén",
     "Precio": "$6.800",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": "Picante"
@@ -995,6 +1119,7 @@
     "ID": 125,
     "Nombre": "Langostinos fritos",
     "Precio": "$6.800",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1003,6 +1128,7 @@
     "ID": 126,
     "Nombre": "Camarones Kon-Pao",
     "Precio": "$6.800",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": "Picante"
@@ -1011,6 +1137,7 @@
     "ID": 127,
     "Nombre": "Nido con camarones",
     "Precio": "$7.800",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1019,6 +1146,7 @@
     "ID": 128,
     "Nombre": "Camarones agridulces",
     "Precio": "$6.800",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1027,6 +1155,7 @@
     "ID": 129,
     "Nombre": "Con almendras y verduras",
     "Precio": "$6.800",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1035,6 +1164,7 @@
     "ID": 130,
     "Nombre": "Calamares con verduras",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1043,6 +1173,7 @@
     "ID": 131,
     "Nombre": "Calamares Kon-Pao",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": "Picante"
@@ -1051,6 +1182,7 @@
     "ID": 621,
     "Nombre": "Rabas fritas",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Mariscos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1059,6 +1191,7 @@
     "ID": 134,
     "Nombre": "Pato con salsa especial",
     "Precio": "$7.500",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1067,6 +1200,7 @@
     "ID": 135,
     "Nombre": "Berenjenas Yu-Xiang",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "Cerdo",
     "Aclaración": "Picante"
@@ -1075,6 +1209,7 @@
     "ID": 136,
     "Nombre": "Berenjenas con salsa de soja",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1083,6 +1218,7 @@
     "ID": 140,
     "Nombre": "Tempura frito",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "Pasta de pescado con verdura",
     "Aclaración": ""
@@ -1091,14 +1227,16 @@
     "ID": 141,
     "Nombre": "Entrada china mixta chica",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Especialidades",
-    "Ingredientes": "Chorizo chino, algas, queso de soja, cerdo ahumado, tempura y huevo con salsa de soja",
+    "Ingredientes": "Chorizo chino, algas marinas, queso de soja, cerdo ahumado, tempura y huevo con salsa de soja",
     "Aclaración": ""
   },
   {
     "ID": 142,
     "Nombre": "Entrada china mixta grande",
     "Precio": "$5.200",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1107,6 +1245,7 @@
     "ID": 144,
     "Nombre": "Chorizo chino",
     "Precio": "$3.800",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1115,6 +1254,7 @@
     "ID": 145,
     "Nombre": "Arroz con guiso de cerdo",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1123,6 +1263,7 @@
     "ID": 146,
     "Nombre": "Arroz panceta y cerdo guisado",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1131,6 +1272,7 @@
     "ID": 147,
     "Nombre": "Arroz con pollo frito",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1139,6 +1281,7 @@
     "ID": 148,
     "Nombre": "Arroz con cerdo frito",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1147,6 +1290,7 @@
     "ID": 149,
     "Nombre": "Arroz especial al vapor",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1155,6 +1299,7 @@
     "ID": 162,
     "Nombre": "Fideos con sopa de la casa",
     "Precio": "$4.600",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1163,6 +1308,7 @@
     "ID": 166,
     "Nombre": "con camarones",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1171,6 +1317,7 @@
     "ID": 167,
     "Nombre": "con mariscos",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1179,6 +1326,7 @@
     "ID": 169,
     "Nombre": "Wan-Tan",
     "Precio": "$4.500",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1187,6 +1335,7 @@
     "ID": 172,
     "Nombre": "Sopa de la casa con mifen",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1195,6 +1344,7 @@
     "ID": 174,
     "Nombre": "con cerdo frito",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1203,6 +1353,7 @@
     "ID": 175,
     "Nombre": "con pollo frito",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1211,6 +1362,7 @@
     "ID": 176,
     "Nombre": "con verduras",
     "Precio": "$4.000",
+    "Precio 350": "",
     "Tipo": "Fideos con sopa",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1219,6 +1371,7 @@
     "ID": 186,
     "Nombre": "Pollo frito y verduras",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa especial",
     "Ingredientes": "",
     "Aclaración": "agridulce"
@@ -1227,6 +1380,7 @@
     "ID": 187,
     "Nombre": "Cerdo frito y verduras",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa especial",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1235,6 +1389,7 @@
     "ID": 189,
     "Nombre": "Pollo y verduras a la salsa ostra",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa especial",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1243,6 +1398,7 @@
     "ID": 190,
     "Nombre": "Pollo y verduras",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa especial",
     "Ingredientes": "",
     "Aclaración": "agripicante"
@@ -1251,6 +1407,7 @@
     "ID": 191,
     "Nombre": "Pollo y verduras",
     "Precio": "$4.800",
+    "Precio 350": "",
     "Tipo": "Arroz con salsa especial",
     "Ingredientes": "",
     "Aclaración": "agridulce"
@@ -1259,6 +1416,7 @@
     "ID": 197,
     "Nombre": "Carne y verdura",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Za-Mien (Fideos crocantes con salsa de soja)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1267,6 +1425,7 @@
     "ID": 198,
     "Nombre": "Cerdo ahumado y verdura",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Za-Mien (Fideos crocantes con salsa de soja)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1275,6 +1434,7 @@
     "ID": 199,
     "Nombre": "Pollo y verdura",
     "Precio": "$4.700",
+    "Precio 350": "",
     "Tipo": "Za-Mien (Fideos crocantes con salsa de soja)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1283,6 +1443,7 @@
     "ID": 200,
     "Nombre": "Camarones y verdura",
     "Precio": "$6.000",
+    "Precio 350": "",
     "Tipo": "Za-Mien (Fideos crocantes con salsa de soja)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1291,6 +1452,7 @@
     "ID": 201,
     "Nombre": "Verduras",
     "Precio": "$4.200",
+    "Precio 350": "",
     "Tipo": "Za-Mien (Fideos crocantes con salsa de soja)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1299,6 +1461,7 @@
     "ID": 202,
     "Nombre": "Mixto con verdura",
     "Precio": "$5.000",
+    "Precio 350": "",
     "Tipo": "Za-Mien (Fideos crocantes con salsa de soja)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1307,6 +1470,7 @@
     "ID": 203,
     "Nombre": "hongos chinos y bambú",
     "Precio": "$5.500",
+    "Precio 350": "",
     "Tipo": "Za-Mien (Fideos crocantes con salsa de soja)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1315,6 +1479,7 @@
     "ID": 212,
     "Nombre": "Salmon ahumado con queso crema",
     "Precio": "$4.000",
+    "Precio 350": "",
     "Tipo": "Sushi (solo sábados y domingos)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1323,6 +1488,7 @@
     "ID": 213,
     "Nombre": "Atún con queso crema",
     "Precio": "$3.700",
+    "Precio 350": "",
     "Tipo": "Sushi (solo sábados y domingos)",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1331,6 +1497,7 @@
     "ID": 400,
     "Nombre": "Flan casero",
     "Precio": "$1.100",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1339,14 +1506,16 @@
     "ID": 401,
     "Nombre": "Cheesecake (crema de queso)",
     "Precio": "$1.800",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
     "ID": 402,
-    "Nombre": "Cheesecake (maracuyá o frutos rojos)",
+    "Nombre": "Cheesecake (marac. o frut. rojos)",
     "Precio": "$2.300",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1355,6 +1524,7 @@
     "ID": 403,
     "Nombre": "Almendrado",
     "Precio": "$1.700",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": "Fundador"
@@ -1363,6 +1533,7 @@
     "ID": 404,
     "Nombre": "Brownie con crema y dulce de leche",
     "Precio": "$1.900",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1371,6 +1542,7 @@
     "ID": 405,
     "Nombre": "Bombón escocés",
     "Precio": "$1.600",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": "Fundador"
@@ -1379,6 +1551,7 @@
     "ID": 4000,
     "Nombre": "Melona",
     "Precio": "$1.200",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1387,6 +1560,7 @@
     "ID": "+",
     "Nombre": "Adicional crema o dulce de leche",
     "Precio": "$400",
+    "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1395,14 +1569,16 @@
     "ID": 300,
     "Nombre": "Gaseosas",
     "Precio": "$700",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
-    "Aclaración": "Línea Coca-Cola"
+    "Aclaración": "LÍNEA"
   },
   {
     "ID": 301,
     "Nombre": "Agua mineral",
     "Precio": "$700",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1411,6 +1587,7 @@
     "ID": 302,
     "Nombre": "Té rojo",
     "Precio": "$600",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
     "Aclaración": "frio endulzado"
@@ -1419,6 +1596,7 @@
     "ID": 303,
     "Nombre": "Limonada",
     "Precio": "$1.200",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1427,6 +1605,7 @@
     "ID": 304,
     "Nombre": "Limonada",
     "Precio": "$1.400",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1435,6 +1614,7 @@
     "ID": 306,
     "Nombre": "Exprimido",
     "Precio": "$1.200",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "Banana, maracuyá, mango, frutos rojos o ananá",
     "Aclaración": ""
@@ -1443,14 +1623,16 @@
     "ID": 307,
     "Nombre": "Licuados",
     "Precio": "$1.500",
+    "Precio 350": "",
     "Tipo": "Bebidas",
-    "Ingredientes": "Frutas frescas",
+    "Ingredientes": "",
     "Aclaración": ""
   },
   {
     "ID": 328,
     "Nombre": "Lata china",
     "Precio": "$1.300",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1459,6 +1641,7 @@
     "ID": 329,
     "Nombre": "Botella china",
     "Precio": "$1.550",
+    "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1467,6 +1650,7 @@
     "ID": 312,
     "Nombre": "Amstel",
     "Precio": "$1.150",
+    "Precio 350": "",
     "Tipo": "Cerveza",
     "Ingredientes": "",
     "Aclaración": "473cc"
@@ -1475,6 +1659,7 @@
     "ID": 313,
     "Nombre": "Schneider",
     "Precio": "$1.050",
+    "Precio 350": "",
     "Tipo": "Cerveza",
     "Ingredientes": "",
     "Aclaración": "473cc"
@@ -1483,6 +1668,7 @@
     "ID": 314,
     "Nombre": "Heineken",
     "Precio": "$1.250",
+    "Precio 350": "",
     "Tipo": "Cerveza",
     "Ingredientes": "",
     "Aclaración": "473cc"
@@ -1491,6 +1677,7 @@
     "ID": 315,
     "Nombre": "Patagonia",
     "Precio": "$1.450",
+    "Precio 350": "",
     "Tipo": "Cerveza",
     "Ingredientes": "",
     "Aclaración": "473cc"
@@ -1499,6 +1686,7 @@
     "ID": 324,
     "Nombre": "Soyu (licor coreano)",
     "Precio": "$3.500",
+    "Precio 350": "",
     "Tipo": "Cerveza",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1507,6 +1695,7 @@
     "ID": 500,
     "Nombre": "Café expresso",
     "Precio": "$700",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1515,6 +1704,7 @@
     "ID": 501,
     "Nombre": "Café jarrito",
     "Precio": "$750",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1523,6 +1713,7 @@
     "ID": 502,
     "Nombre": "Café doble",
     "Precio": "$800",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1531,6 +1722,7 @@
     "ID": 503,
     "Nombre": "Latte",
     "Precio": "$850",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1539,6 +1731,7 @@
     "ID": 504,
     "Nombre": "Macchiato",
     "Precio": "$830",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1547,6 +1740,7 @@
     "ID": 505,
     "Nombre": "Té de jazmín",
     "Precio": "$700",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1555,6 +1749,7 @@
     "ID": 506,
     "Nombre": "Té verde",
     "Precio": "$700",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1563,6 +1758,7 @@
     "ID": 507,
     "Nombre": "Té Oolong",
     "Precio": "$700",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1571,207 +1767,233 @@
     "ID": 508,
     "Nombre": "Té de jengibre",
     "Precio": "$700",
+    "Precio 350": "",
     "Tipo": "Café e infusiones",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
+    "ID": 690,
     "Nombre": "Vasco Viejo",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "Precio": "$1.600",
+    "Precio 350": "$1.100",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
+    "ID": 700,
     "Nombre": "Portillo Malbec",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "Precio": "$2.500",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Cordero con piel de lobo",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 701,
+    "Nombre": "Cordero con piel de lobo Malbec/Cabernet",
+    "Precio": "$2.300",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Perro callejero",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 702,
+    "Nombre": "Perro callejero Blend de malbec",
+    "Precio": "$3.300",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "San Felipe Robles",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 703,
+    "Nombre": "San Felipe Robles Malbec",
+    "Precio": "$2.600",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "López",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 704,
+    "Nombre": "López Malbec",
+    "Precio": "$2.300",
+    "Precio 350": "$1.600",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Uxmal",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 705,
+    "Nombre": "Uxmal Malbec",
+    "Precio": "$2.500",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Pispi",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 706,
+    "Nombre": "Pispi Blend de tintas",
+    "Precio": "$4.300",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Salentein",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 707,
+    "Nombre": "Salentein Reserva Malbec",
+    "Precio": "$4.500",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Trapiche Reserva",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 708,
+    "Nombre": "Trapiche Reserva Malbec",
+    "Precio": "$4.400",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Trapiche Medalla",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 709,
+    "Nombre": "Trapiche Medalla Malbec",
+    "Precio": "$8.200",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Saint Felicien",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 710,
+    "Nombre": "Saint Felicien Malbec",
+    "Precio": "$5.700",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Mosquita Muerta",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 711,
+    "Nombre": "Mosquita Muerta Blend de Tintas",
+    "Precio": "$8.200",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Los intocables",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 712,
+    "Nombre": "Los intocables Bourbon Blend de Tintas",
+    "Precio": "$5.300",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Trumpeter",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 713,
+    "Nombre": "Trumpeter Malbec",
+    "Precio": "$5.200",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "DV Catena",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 714,
+    "Nombre": "DV Catena Cabernet-Malbec",
+    "Precio": "$7.300",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Finca la Linda",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 715,
+    "Nombre": "Finca la Linda Malbec",
+    "Precio": "$4.700",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Viña Las Perdices Reserva",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "ID": 800,
+    "Nombre": "Viña Las Perdices Reserva Malbec",
+    "Precio": "$1.900",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
+    "ID": 801,
     "Nombre": "Copa de vino de la casa",
-    "Precio": "",
-    "Tipo": "Vinos tintos",
+    "Precio": "$1.300",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Portillo",
-    "Precio": "",
-    "Tipo": "VInos blancos",
+    "ID": 715,
+    "Nombre": "Portillo Sauvignon Blanc",
+    "Precio": "$2.500",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Uxmal",
-    "Precio": "",
-    "Tipo": "VInos blancos",
+    "ID": 716,
+    "Nombre": "Uxmal Chardonnay",
+    "Precio": "$2.500",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Trapiche",
-    "Precio": "",
-    "Tipo": "VInos blancos",
+    "ID": 717,
+    "Nombre": "Trapiche Reserva Chardonnay",
+    "Precio": "$4.400",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Finca la Linda",
-    "Precio": "",
-    "Tipo": "VInos blancos",
+    "ID": 718,
+    "Nombre": "Finca la Linda Chardonnay",
+    "Precio": "$4.700",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Norton",
-    "Precio": "",
-    "Tipo": "Vinos dulces",
+    "ID": 719,
+    "Nombre": "Norton Cosecha Tardia",
+    "Precio": "$2.300",
+    "Precio 350": "$1.600",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   },
   {
-    "ID": "",
-    "Nombre": "Santa Julia",
-    "Precio": "",
-    "Tipo": "Vinos dulces",
+    "ID": 720,
+    "Nombre": "Santa Julia Dulce Chenin",
+    "Precio": "$3.300",
+    "Precio 350": "",
+    "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
   }

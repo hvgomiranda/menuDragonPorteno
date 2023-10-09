@@ -13,11 +13,8 @@ function App() {
     "Pan-Tiao (fideos anchos de arroz)", "Arroz con salsa de soja", "Chop-Suey", "Pollo", "Carne", "Cerdo",
     "Tofu", "Mariscos", "Especialidades", "Fideos con sopa", "Arroz con salsa especial",
     "Za-Mien (Fideos crocantes con salsa de soja)", "Sushi (solo sábados y domingos)", "Postres",
-    "Bebidas", "Cerveza", "Café e infusiones", "Vinos tintos", "Vinos blancos"
+    "Bebidas", "Cerveza", "Café e infusiones", "Vinos"
   ];
-  const tiposVinos = [
-
-  ]
 
   return (
     <div className="App" style={{backgroundImage: `url($(backGroundImage))`}}>
