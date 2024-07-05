@@ -1,7 +1,16 @@
 [
   {
+    "ID": 290,
+    "Nombre": "Arrolladito primavera 2 unidades",
+    "Precio": "$3.000",
+    "Precio 350": "",
+    "Tipo": "Entrada",
+    "Ingredientes": "verdura o carne",
+    "Aclaración": "2 unidades"
+  },
+  {
     "ID": 1,
-    "Nombre": "Arrolladito primavera",
+    "Nombre": "Arrolladito primavera 4 unidades",
     "Precio": "$5.500",
     "Precio 350": "",
     "Tipo": "Entrada",
@@ -1496,7 +1505,7 @@
   {
     "ID": 400,
     "Nombre": "Flan casero",
-    "Precio": "$3.000",
+    "Precio": "$3.500",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1505,7 +1514,7 @@
   {
     "ID": 401,
     "Nombre": "Cheesecake (crema de queso)",
-    "Precio": "$3.900",
+    "Precio": "$4.500",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1514,7 +1523,7 @@
   {
     "ID": 402,
     "Nombre": "Cheesecake (marac. o frut. rojos)",
-    "Precio": "$5.300",
+    "Precio": "$6.000",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1523,7 +1532,7 @@
   {
     "ID": 403,
     "Nombre": "Almendrado",
-    "Precio": "$4.500",
+    "Precio": "$5.000",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1532,7 +1541,7 @@
   {
     "ID": 404,
     "Nombre": "Brownie con crema y dulce de leche",
-    "Precio": "$4.800",
+    "Precio": "$5.700",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1541,16 +1550,25 @@
   {
     "ID": 405,
     "Nombre": "Bombón escocés",
-    "Precio": "$4.300",
+    "Precio": "$4.800",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
     "Aclaración": "Fundador"
   },
   {
+    "ID": 406,
+    "Nombre": "Pranile de chocolate",
+    "Precio": "$6.000",
+    "Precio 350": "",
+    "Tipo": "Postres",
+    "Ingredientes": "",
+    "Aclaración": ""
+  },
+  {
     "ID": 4000,
     "Nombre": "Melona",
-    "Precio": "$3.300",
+    "Precio": "$3.500",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1559,7 +1577,7 @@
   {
     "ID": "+",
     "Nombre": "Adicional crema o dulce de leche",
-    "Precio": "$1.000",
+    "Precio": "$1.500",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1568,7 +1586,7 @@
   {
     "ID": 300,
     "Nombre": "Gaseosas",
-    "Precio": "$2.300",
+    "Precio": "$2.800",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1577,7 +1595,7 @@
   {
     "ID": 301,
     "Nombre": "Agua mineral",
-    "Precio": "$2.300",
+    "Precio": "$2.800",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1586,7 +1604,7 @@
   {
     "ID": 302,
     "Nombre": "Té rojo",
-    "Precio": "$2.000",
+    "Precio": "$2.200",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1595,7 +1613,7 @@
   {
     "ID": 303,
     "Nombre": "Limonada",
-    "Precio": "$3.300",
+    "Precio": "$3.500",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1603,8 +1621,8 @@
   },
   {
     "ID": 304,
-    "Nombre": "Limonada",
-    "Precio": "$3.500",
+    "Nombre": "Limonada con mente y jengibre",
+    "Precio": "$3.800",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1613,7 +1631,7 @@
   {
     "ID": 306,
     "Nombre": "Exprimido",
-    "Precio": "$3.500",
+    "Precio": "$3.700",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "Banana, maracuyá, mango, frutos rojos o ananá",
@@ -1622,7 +1640,7 @@
   {
     "ID": 307,
     "Nombre": "Licuados",
-    "Precio": "$3.900",
+    "Precio": "$4.200",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1631,7 +1649,7 @@
   {
     "ID": 328,
     "Nombre": "Lata china",
-    "Precio": "$4.300",
+    "Precio": "$4.500",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1640,7 +1658,7 @@
   {
     "ID": 329,
     "Nombre": "Botella china",
-    "Precio": "$4.900",
+    "Precio": "$5.300",
     "Precio 350": "",
     "Tipo": "Bebidas",
     "Ingredientes": "",
@@ -1649,7 +1667,7 @@
   {
     "ID": 312,
     "Nombre": "Amstel",
-    "Precio": "$3.500",
+    "Precio": "$3.900",
     "Precio 350": "",
     "Tipo": "Cerveza & Soyu",
     "Ingredientes": "",
@@ -1658,7 +1676,7 @@
   {
     "ID": 313,
     "Nombre": "Schneider",
-    "Precio": "$3.300",
+    "Precio": "$3.700",
     "Precio 350": "",
     "Tipo": "Cerveza & Soyu",
     "Ingredientes": "",
@@ -1667,7 +1685,7 @@
   {
     "ID": 314,
     "Nombre": "Heineken",
-    "Precio": "$3.800",
+    "Precio": "$4.200",
     "Precio 350": "",
     "Tipo": "Cerveza & Soyu",
     "Ingredientes": "",
@@ -1676,7 +1694,7 @@
   {
     "ID": 315,
     "Nombre": "Patagonia",
-    "Precio": "$4.000",
+    "Precio": "$4.400",
     "Precio 350": "",
     "Tipo": "Cerveza & Soyu",
     "Ingredientes": "",
@@ -1685,7 +1703,7 @@
   {
     "ID": 324,
     "Nombre": "Soyu (licor coreano)",
-    "Precio": "$8.000",
+    "Precio": "$8.500",
     "Precio 350": "",
     "Tipo": "Cerveza & Soyu",
     "Ingredientes": "",
@@ -1694,7 +1712,7 @@
   {
     "ID": 325,
     "Nombre": "Tsing Tao",
-    "Precio": "$6.500",
+    "Precio": "$6.900",
     "Precio 350": "",
     "Tipo": "Cerveza & Soyu",
     "Ingredientes": "",
@@ -1703,7 +1721,7 @@
   {
     "ID": 500,
     "Nombre": "Café expresso",
-    "Precio": "$2.300",
+    "Precio": "$2.800",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1712,7 +1730,7 @@
   {
     "ID": 501,
     "Nombre": "Café jarrito",
-    "Precio": "$2.6500",
+    "Precio": "$3.100",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1721,7 +1739,7 @@
   {
     "ID": 502,
     "Nombre": "Café doble",
-    "Precio": "$2.800",
+    "Precio": "$3.300",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1730,7 +1748,7 @@
   {
     "ID": 503,
     "Nombre": "Latte",
-    "Precio": "$2.800",
+    "Precio": "$3.300",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1739,7 +1757,7 @@
   {
     "ID": 504,
     "Nombre": "Macchiato",
-    "Precio": "$2.800",
+    "Precio": "$3.300",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1748,7 +1766,7 @@
   {
     "ID": 505,
     "Nombre": "Té de jazmín",
-    "Precio": "$2.300",
+    "Precio": "$2.800",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1757,7 +1775,7 @@
   {
     "ID": 506,
     "Nombre": "Té verde",
-    "Precio": "$2.300",
+    "Precio": "$2.800",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1766,7 +1784,7 @@
   {
     "ID": 507,
     "Nombre": "Té Oolong",
-    "Precio": "$2.300",
+    "Precio": "$2.800",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
@@ -1775,7 +1793,7 @@
   {
     "ID": 508,
     "Nombre": "Té de jengibre",
-    "Precio": "$2.300",
+    "Precio": "$2.800",
     "Precio 350": "",
     "Tipo": "Café & Té",
     "Ingredientes": "",
