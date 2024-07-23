@@ -9,6 +9,7 @@ const FlippableCard = ({ item }) => {
     
     return(
         <div className="flippable-card-container">
+            {item.Ingredientes || item.Aclaración ? 
             <CSSTransition
                 in={showFront}
                 timeout={300}
@@ -17,7 +18,12 @@ const FlippableCard = ({ item }) => {
                 <Card item={item} onClick={() =>{
                     setShowFront((value) => !value);
                 }}/>
-            </CSSTransition>
+            </CSSTransition> :
+            <Card item={item} onClick={() =>{
+                setShowFront((value) => !value);
+            }}/>
+
+            }
         </div>
     );
 };

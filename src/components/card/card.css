@@ -42,7 +42,6 @@
     align-items: center;
     padding: 5px 10px;
     z-index: 1px;
-
 }
 
 .card-back{
@@ -52,6 +51,7 @@
     align-items: center;
     padding: 5px 10px;
     transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .card_title{
@@ -81,30 +81,30 @@
 }
 
 .flip-exit{
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
 }
 
 .flip-exit-active{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
     transition: transform 300ms;
     transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
 }
 
 .flip-exit-done{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .flip-enter{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .flip-enter-active{
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
     transition: transform 300ms;
     transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
 
 }
 
 .flip-enter-done{
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
 }
