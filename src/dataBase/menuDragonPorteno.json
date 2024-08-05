@@ -1244,7 +1244,7 @@
   {
     "ID": 142,
     "Nombre": "Picada china mixta grande",
-    "Precio": "$19.000",
+    "Precio": "$22.000",
     "Precio 350": "",
     "Tipo": "Especialidades",
     "Ingredientes": "Chorizo chino, algas marinas, queso de soja, cerdo ahumado, tempura y huevo con salsa de soja",
@@ -1568,7 +1568,7 @@
   {
     "ID": 4000,
     "Nombre": "Melona",
-    "Precio": "$3.500",
+    "Precio": "$3.800",
     "Precio 350": "",
     "Tipo": "Postres",
     "Ingredientes": "",
@@ -1802,8 +1802,8 @@
   {
     "ID": 690,
     "Nombre": "Vasco Viejo",
-    "Precio": "$5.800",
-    "Precio 350": "$4.500",
+    "Precio": "$6.800",
+    "Precio 350": "$4.800",
     "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1811,7 +1811,7 @@
   {
     "ID": 700,
     "Nombre": "Portillo Malbec",
-    "Precio": "$8.000",
+    "Precio": "$10.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1820,7 +1820,7 @@
   {
     "ID": 701,
     "Nombre": "Cordero con piel de lobo Malbec/Cabernet",
-    "Precio": "$10.000",
+    "Precio": "$11.000",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1829,7 +1829,7 @@
   {
     "ID": 702,
     "Nombre": "Perro callejero Blend de malbec",
-    "Precio": "$12.000",
+    "Precio": "$14.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1838,7 +1838,7 @@
   {
     "ID": 703,
     "Nombre": "San Felipe Robles Malbec",
-    "Precio": "$10.000",
+    "Precio": "$10.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1847,8 +1847,8 @@
   {
     "ID": 704,
     "Nombre": "López Malbec",
-    "Precio": "$7.500",
-    "Precio 350": "$6.000",
+    "Precio": "$8.500",
+    "Precio 350": "$6.800",
     "Tipo": "Vinos",
     "Ingredientes": "",
     "Aclaración": ""
@@ -1856,7 +1856,7 @@
   {
     "ID": 705,
     "Nombre": "Uxmal Malbec",
-    "Precio": "$9.000",
+    "Precio": "$9.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1865,7 +1865,7 @@
   {
     "ID": 706,
     "Nombre": "Pispi Blend de tintas",
-    "Precio": "$17.000",
+    "Precio": "$18.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1874,7 +1874,7 @@
   {
     "ID": 707,
     "Nombre": "Salentein Reserva Malbec",
-    "Precio": "$14.600",
+    "Precio": "$21.300",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1883,7 +1883,7 @@
   {
     "ID": 708,
     "Nombre": "Trapiche Reserva Malbec",
-    "Precio": "$12.000",
+    "Precio": "$12.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1901,7 +1901,7 @@
   {
     "ID": 710,
     "Nombre": "Saint Felicien Malbec",
-    "Precio": "$16.000",
+    "Precio": "$19.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1910,7 +1910,7 @@
   {
     "ID": 711,
     "Nombre": "Mosquita Muerta Blend de Tintas",
-    "Precio": "$50.000",
+    "Precio": "$62.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1919,7 +1919,7 @@
   {
     "ID": 712,
     "Nombre": "Los intocables Bourbon Blend de Tintas",
-    "Precio": "$14.000",
+    "Precio": "$15.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1928,7 +1928,7 @@
   {
     "ID": 713,
     "Nombre": "Trumpeter Malbec",
-    "Precio": "$13.500",
+    "Precio": "$16.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1937,7 +1937,7 @@
   {
     "ID": 714,
     "Nombre": "DV Catena Cabernet-Malbec",
-    "Precio": "$19.000",
+    "Precio": "$20.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1946,7 +1946,7 @@
   {
     "ID": 715,
     "Nombre": "Finca la Linda Malbec",
-    "Precio": "$11.000",
+    "Precio": "$14.200",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1955,7 +1955,7 @@
   {
     "ID": 716,
     "Nombre": "Luca Malbec",
-    "Precio": "$42.500",
+    "Precio": "$60.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1964,7 +1964,7 @@
   {
     "ID": 800,
     "Nombre": "Viña Las Perdices Reserva Malbec",
-    "Precio": "$5.000",
+    "Precio": "$5.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1973,7 +1973,7 @@
   {
     "ID": 801,
     "Nombre": "Copa de vino de la casa",
-    "Precio": "$4.300",
+    "Precio": "$4.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1982,7 +1982,7 @@
   {
     "ID": 802,
     "Nombre": "Copa de vino blanco Cordero dulce natural",
-    "Precio": "$5.000",
+    "Precio": "$5.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -1991,7 +1991,7 @@
   {
     "ID": 7150,
     "Nombre": "Portillo Sauvignon Blanc",
-    "Precio": "$8.000",
+    "Precio": "$10.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -2000,7 +2000,7 @@
   {
     "ID": 7160,
     "Nombre": "Luca Chardonnay",
-    "Precio": "$42.500",
+    "Precio": "$60.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -2009,7 +2009,7 @@
   {
     "ID": 717,
     "Nombre": "Trapiche Reserva Chardonnay",
-    "Precio": "$12.000",
+    "Precio": "$14.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -2018,7 +2018,7 @@
   {
     "ID": 718,
     "Nombre": "Trumpeter clásico Sauvignon Blanc",
-    "Precio": "$4.700",
+    "Precio": "$16.800",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -2027,7 +2027,7 @@
   {
     "ID": 719,
     "Nombre": "Saint Felicien Chardonnay Roble",
-    "Precio": "$16.500",
+    "Precio": "$19.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -2036,7 +2036,7 @@
   {
     "ID": 720,
     "Nombre": "Norton Cosecha Tardía",
-    "Precio": "$8.000",
+    "Precio": "$8.500",
     "Precio 350": "$6.000",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -2045,7 +2045,7 @@
   {
     "ID": 721,
     "Nombre": "Santa Julia Dulce Chenin",
-    "Precio": "$11.000",
+    "Precio": "$12.500",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
@@ -2054,7 +2054,7 @@
   {
     "ID": 722,
     "Nombre": "Cordero dulce natural",
-    "Precio": "$10.000",
+    "Precio": "$11.000",
     "Precio 350": "",
     "Tipo": "Vinos",
     "Ingredientes": "",
