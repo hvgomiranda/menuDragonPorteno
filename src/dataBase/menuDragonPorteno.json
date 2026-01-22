@@ -1701,6 +1701,15 @@
     "Aclaración": "473cc"
   },
   {
+    "ID": 316,
+    "Nombre": "Stella 0.0 Alcohol",
+    "Precio": "$7.500",
+    "Precio 350": "",
+    "Tipo": "Cerveza & Soyu",
+    "Ingredientes": "",
+    "Aclaración": "500ml"
+  },
+  {
     "ID": 324,
     "Nombre": "Soyu (licor coreano)",
     "Precio": "$20.000",
