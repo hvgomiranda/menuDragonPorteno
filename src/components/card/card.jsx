@@ -1,4 +1,5 @@
 import "./card.css";
+import { BsInfoCircle } from "react-icons/bs";
 
 const Card = ({ item, onClick }) => {
 
@@ -26,10 +27,15 @@ const Card = ({ item, onClick }) => {
         return retorno;
     }
 
+    const hasDetails = item.Ingredientes || Object.keys(item).some((key) => key.startsWith("Aclaraci") && item[key]);
+
     return(
         <div className="card" onClick={onClick}>
             <div className="card-front">
-                <div className="card_title">{item.ID}. {item.Nombre}</div>
+                {hasDetails && <BsInfoCircle className="card_info_icon" />}
+                <div className="card_title">
+                    <span className="card_id">{item.ID}.</span> {item.Nombre}
+                </div>
                 <div className="card_price">{precio(item)}</div>
             </div>
             <div className="card-back">

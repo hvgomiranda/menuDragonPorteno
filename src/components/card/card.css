@@ -38,10 +38,19 @@
 .card-front{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 5px 10px;
+    gap: 4px;
+    padding: 7px 10px;
     z-index: 1px;
+}
+
+.card_info_icon{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    font-size: 0.9rem;
+    color: black;
 }
 
 .card-back{
@@ -59,17 +68,26 @@
     align-self: center;
     font-size: 1.2rem;
     font-weight: 700;
-    line-height: 1.2rem;
+    line-height: 1.15rem;
     width: 100%;
-    margin: 5px 5px 0px 5px;
+    margin: 0px 5px;
+    overflow-wrap: anywhere;
+}
+
+.card_id{
+    font-size: 0.85rem;
 }
 
 .card_price{
     justify-self: flex-end;
     align-self: center;
-    font-size: 1rem;
+    font-size: 1.15rem;
+    line-height: 1.1rem;
     font-weight: 500;
-    margin: 5px 2px;
+    margin: auto 2px 0px 2px;
+    text-align: center;
+    width: 100%;
+    overflow-wrap: anywhere;
 }
 
 .card_description{

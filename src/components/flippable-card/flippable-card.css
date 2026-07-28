@@ -4,3 +4,9 @@
     perspective: 1000px;
     margin-bottom: 8px;
 }
+
+@media (max-width: 600px){
+    .flippable-card-container{
+        height: 96px;
+    }
+}
