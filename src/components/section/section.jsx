@@ -1,13 +1,10 @@
 import "./section.css";
 import Accordion from 'react-bootstrap/Accordion';
-import data from "../../dataBase/menuDragonPorteno.json";
 import FlippableCard from "../flippable-card/flippable-card";
 import {ReactComponent as Logo} from "../../media/logo.svg";
 
-const Section = ({title}) => {
+const Section = ({title, items}) => {
 
-    const filteredData = data.filter(item => item.Tipo === title);
-    
     return(
         <Accordion className="section">
                 <Accordion.Item eventKey="0" className="section_item">
@@ -16,7 +13,7 @@ const Section = ({title}) => {
                         
                     </div>
                     <Accordion.Body className="section_body">
-                        {filteredData.map(item => (
+                        {items.map(item => (
                             <FlippableCard key={item.ID} item={item} />
                         ))}
                     </Accordion.Body>

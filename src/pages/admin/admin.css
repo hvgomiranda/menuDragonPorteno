@@ -1,0 +1,126 @@
+.admin_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.admin_login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 320px;
+}
+
+.admin_login_form label {
+    font-weight: 600;
+}
+
+.admin_login_form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin_login_error {
+    color: #b00020;
+    margin: 0;
+}
+
+.admin_loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.admin_panel {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+}
+
+.admin_panel_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.admin_add_form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.admin_add_fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.admin_add_fields label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-weight: 600;
+}
+
+.admin_add_checkbox {
+    flex-direction: row !important;
+    align-items: center;
+    gap: 0.5rem !important;
+}
+
+.admin_add_fields input,
+.admin_add_fields select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin_category {
+    margin-bottom: 2rem;
+}
+
+.admin_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin_table th,
+.admin_table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.admin_table input[type="text"],
+.admin_table input:not([type="checkbox"]) {
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin_table_checkbox {
+    text-align: center;
+}
+
+.admin_table_actions {
+    display: flex;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.admin_delete_btn {
+    color: #b00020;
+}
