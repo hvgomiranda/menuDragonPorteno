@@ -7,7 +7,7 @@ import SchedulePanel from "./schedule-panel.jsx";
 const LINK_ITEMS = [
     { href: "https://www.instagram.com/dragonp/", label: "Instagram", Icon: AiOutlineInstagram, external: true },
     { href: "https://wa.me/5491155899110", label: "WhatsApp", Icon: AiOutlineWhatsApp, external: true },
-    { href: "tel:+5491160430888", label: "Llamanos", Icon: AiOutlinePhone, external: false },
+    { href: "tel:+5491155899110", label: "Llamanos", Icon: AiOutlinePhone, external: false },
     { href: "https://www.google.com/maps/place/dragon+porte%C3%B1o/data=!4m2!3m1!1s0x95bcb5cd49818d83:0xe8ac130ef74cfb7?sa=X&ved=1t:242&ictx=111", label: "Ubicación", Icon: AiOutlineEnvironment, external: true },
     { href: "https://search.google.com/local/writereview?placeid=ChIJg42BSc21vJURt8907zDBig4", label: "Tu reseña", Icon: AiOutlineStar, external: true },
 ];
