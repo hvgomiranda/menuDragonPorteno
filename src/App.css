@@ -1,6 +1,5 @@
 .App {
     align-items: center;
-    background-color: #4a4b4f;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     ::-webkit-scrollbar {
@@ -13,25 +12,16 @@
     width: 100vw;
     overflow-y: auto;
     overflow-x: hidden;
-    perspective: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 
 }
 
 .seccion{
-    margin: 25px;
-}
-
-.logo{
-    position: absolute;
-    transform-style: preserve-3d;
-    z-index: -1;
-    height: 100%;
-    transform: translateZ(-80px) scale(3.5);
-    margin-top: 50vh;
+    margin: 0 25px 25px 25px;
 }
 
 @font-face {

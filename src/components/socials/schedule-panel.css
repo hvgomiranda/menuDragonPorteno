@@ -1,0 +1,59 @@
+.schedule-overlay{
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background-color: #4a4b4f;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.schedule-overlay.open{
+    transform: translateX(0);
+}
+
+.schedule-close{
+    align-self: flex-end;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #8b2c34;
+    padding: 5px;
+}
+
+.schedule-title{
+    color: black;
+    text-align: center;
+    margin: 10px 0 25px 0;
+}
+
+.schedule-list{
+    width: 90vw;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.schedule-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    border: black 3px solid;
+    background-color: #8b2c34;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+.schedule-dia{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
