@@ -15,5 +15,4 @@
     max-width: none;
     transform: translate3d(-50%, -50%, 0);
     opacity: 0.55;
-    will-change: transform;
 }

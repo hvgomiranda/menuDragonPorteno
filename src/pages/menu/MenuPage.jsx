@@ -1,4 +1,4 @@
-import { useMemo, useRef } from "react";
+import { useMemo } from "react";
 import '../../App.css';
 import Section from "../../components/section/section.jsx";
 import Header from "../../components/header/header.jsx";
@@ -10,7 +10,6 @@ import TIPOS from "../../dataBase/categorias";
 
 const MenuPage = () => {
 
-  const scrollContainerRef = useRef(null);
   const { data, loading, error } = useMenuData();
 
   const itemsPorTipo = useMemo(() => {
@@ -23,8 +22,8 @@ const MenuPage = () => {
 
   return (
     <div className="App">
-      <ParallaxBackground scrollContainerRef={scrollContainerRef} speed={0.16} />
-      <div className='wrapper' ref={scrollContainerRef}>
+      <ParallaxBackground />
+      <div className='wrapper'>
         <Header/>
         <Socials/>
         <div className='seccion'>
