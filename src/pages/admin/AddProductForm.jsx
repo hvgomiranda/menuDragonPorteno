@@ -7,6 +7,8 @@ const AddProductForm = () => {
     const [nombre, setNombre] = useState("");
     const [categoria, setCategoria] = useState(TIPOS[0]);
     const [precio, setPrecio] = useState("");
+    const [ingredientes, setIngredientes] = useState("");
+    const [aclaracion, setAclaracion] = useState("");
     const [disponible, setDisponible] = useState(true);
     const [error, setError] = useState(null);
     const [saving, setSaving] = useState(false);
@@ -16,6 +18,8 @@ const AddProductForm = () => {
         setNombre("");
         setCategoria(TIPOS[0]);
         setPrecio("");
+        setIngredientes("");
+        setAclaracion("");
         setDisponible(true);
     };
 
@@ -29,8 +33,8 @@ const AddProductForm = () => {
                 categoria,
                 precio: Number(precio),
                 precio350: null,
-                ingredientes: "",
-                aclaracion: "",
+                ingredientes: ingredientes.trim(),
+                aclaracion: aclaracion.trim(),
                 disponible,
             });
             resetForm();
@@ -64,6 +68,14 @@ const AddProductForm = () => {
                 <label>
                     Precio
                     <input type="number" min="0" value={precio} onChange={(event) => setPrecio(event.target.value)} required />
+                </label>
+                <label>
+                    Ingredientes
+                    <input value={ingredientes} onChange={(event) => setIngredientes(event.target.value)} />
+                </label>
+                <label>
+                    Aclaración
+                    <input value={aclaracion} onChange={(event) => setAclaracion(event.target.value)} />
                 </label>
                 <label className="admin_add_checkbox">
                     Disponible

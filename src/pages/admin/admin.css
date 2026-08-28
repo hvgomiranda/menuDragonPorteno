@@ -4,6 +4,9 @@
     align-items: center;
     min-height: 100vh;
     padding: 1rem;
+
+    background-color: #e6e6e6;
+    color: #040614;
 }
 
 .admin_login_form {
@@ -35,6 +38,15 @@
     justify-content: center;
     min-height: 100vh;
     padding: 2rem;
+
+    background-color: #e6e6e6;
+    color: #040614;
+}
+
+.admin_page {
+    min-height: 100vh;
+    background-color: #e6e6e6;
+    color: #040614;
 }
 
 .admin_panel {
@@ -99,7 +111,7 @@
 .admin_table th,
 .admin_table td {
     padding: 0.5rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #000;
     text-align: left;
 }
 
@@ -113,6 +125,13 @@
 
 .admin_table_checkbox {
     text-align: center;
+}
+
+.admin_table_description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 140px;
 }
 
 .admin_table_actions {

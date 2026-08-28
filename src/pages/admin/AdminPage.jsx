@@ -29,40 +29,43 @@ const AdminPage = () => {
     }, [productosPorCategoria]);
 
     return (
-        <div className="admin_panel">
-            <header className="admin_panel_header">
-                <p>Sesión iniciada como {user.email}</p>
-                <button onClick={() => signOut(auth)}>Cerrar sesión</button>
-            </header>
+        <div className="admin_page">
+            <div className="admin_panel">
+                <header className="admin_panel_header">
+                    <p>Sesión iniciada como {user.email}</p>
+                    <button onClick={() => signOut(auth)}>Cerrar sesión</button>
+                </header>
 
-            <AddProductForm />
+                <AddProductForm />
 
-            {loading && <p>Cargando productos...</p>}
-            {error && <p>No se pudieron cargar los productos.</p>}
+                {loading && <p>Cargando productos...</p>}
+                {error && <p>No se pudieron cargar los productos.</p>}
 
-            {!loading && !error && categorias.map((categoria) => (
-                productosPorCategoria[categoria]?.length > 0 && (
-                    <section key={categoria} className="admin_category">
-                        <h2>{categoria}</h2>
-                        <table className="admin_table">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Nombre</th>
-                                    <th>Precio</th>
-                                    <th>Disponible</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {productosPorCategoria[categoria].map((product) => (
-                                    <ProductRow key={product.id} product={product} />
-                                ))}
-                            </tbody>
-                        </table>
-                    </section>
-                )
-            ))}
+                {!loading && !error && categorias.map((categoria) => (
+                    productosPorCategoria[categoria]?.length > 0 && (
+                        <section key={categoria} className="admin_category">
+                            <h2>{categoria}</h2>
+                            <table className="admin_table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Nombre</th>
+                                        <th>Descripción</th>
+                                        <th>Precio</th>
+                                        <th>Disponible</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {productosPorCategoria[categoria].map((product) => (
+                                        <ProductRow key={product.id} product={product} />
+                                    ))}
+                                </tbody>
+                            </table>
+                        </section>
+                    )
+                ))}
+            </div>
         </div>
     );
 };
