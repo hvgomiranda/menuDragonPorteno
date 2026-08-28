@@ -15,10 +15,12 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    border: black 3px solid;
-    background-color: #9a9392;
+    border: 2px solid #060515;
+    background-color: rgb(143 16 23 / 50%);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     border-radius: 5px;
-    color: #8b2c34;
+    color: #cfc0c5;
     text-decoration: none;
     cursor: pointer;
 }
@@ -29,6 +31,6 @@
 
 .social-item .iconos{
     text-decoration: none;
-    color: #8b2c34;
+    color: #cfc0c5;
     flex-shrink: 0;
 }

@@ -1,3 +1,7 @@
+html, body {
+    background-color: #312d2d;
+}
+
 .App {
     align-items: center;
     -ms-overflow-style: none;  /* IE and Edge */

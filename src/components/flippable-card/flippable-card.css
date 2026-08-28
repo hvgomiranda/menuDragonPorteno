@@ -1,12 +1,12 @@
 .flippable-card-container{
-    height: 80px;
     width: 100%;
-    perspective: 1000px;
     margin-bottom: 8px;
-}
 
-@media (max-width: 600px){
-    .flippable-card-container{
-        height: 96px;
-    }
+    border: 2px solid #060515;
+    border-radius: 5px;
+    overflow: hidden;
+
+    background-color: rgb(143 16 23 / 50%);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }

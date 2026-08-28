@@ -1,0 +1,46 @@
+.skeleton-section{
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0px 10px 10px 10px;
+}
+
+.skeleton-title{
+    height: 58px;
+    border: 2px solid #060515;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.skeleton-card{
+    height: 80px;
+    border: 2px solid #060515;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px){
+    .skeleton-card{
+        height: 96px;
+    }
+}
+
+.skeleton-title,
+.skeleton-card{
+    background: linear-gradient(
+        100deg,
+        rgb(143 16 23 / 30%) 30%,
+        rgb(143 16 23 / 55%) 50%,
+        rgb(143 16 23 / 30%) 70%
+    );
+    background-size: 250% 100%;
+    animation: skeleton-shimmer 1.6s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer{
+    0%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: -100% 0;
+    }
+}

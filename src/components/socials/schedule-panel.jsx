@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./schedule-panel.css";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const HORARIOS = [
     { dia: "Lunes", horario: "19:00 a 23:00" },
@@ -11,6 +11,9 @@ const HORARIOS = [
     { dia: "Sábado", horario: "12:00 a 16:00 y 19:30 a 23:30" },
     { dia: "Domingo", horario: "12:00 a 16:00 y 19:00 a 23:00" },
 ];
+
+const DIAS_SEMANA = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+const getDiaDeHoy = () => DIAS_SEMANA[new Date().getDay()];
 
 const SchedulePanel = ({ open, onClose }) => {
     useEffect(() => {
@@ -30,13 +33,16 @@ const SchedulePanel = ({ open, onClose }) => {
 
     return (
         <div className={open ? "schedule-overlay open" : "schedule-overlay"} aria-hidden={!open}>
-            <button className="schedule-close" onClick={onClose} aria-label="Cerrar horarios">
-                <AiOutlineClose size={30}/>
+            <button className="schedule-close" onClick={onClose} aria-label="Volver">
+                <AiOutlineArrowLeft size={30}/>
             </button>
             <h2 className="schedule-title">Horarios de atención</h2>
             <div className="schedule-list">
                 {HORARIOS.map(({ dia, horario }) => (
-                    <div className="schedule-row" key={dia}>
+                    <div
+                        className={dia === getDiaDeHoy() ? "schedule-row today" : "schedule-row"}
+                        key={dia}
+                    >
                         <span className="schedule-dia">{dia}</span>
                         <span className="schedule-horario">{horario}</span>
                     </div>

@@ -1,128 +1,50 @@
 .card {
-    height: 100% !important;
     width: 100%;
-
-    transform-style: preserve-3d;
-
-    position: relative;
-
-    background-color: #9a9392;
-
-    user-select: none;
-    cursor: pointer;
-
-    --bs-card-border-color: none !important;
-}
-
-.card-back,
-.card-front{
-    height: 100% !important;
-    width: 100%;
-
-    border: 2px solid black !important;
-    border-radius: 5px;
 
     display: flex;
-    
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    flex-direction: column;
+    gap: 2px;
 
-    position: absolute;
+    padding: 7px 10px;
 
-    background-color: #9a9392;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
 
     font-family: 'Open Sans', sans-serif;
-    color: #8b2c34;
+    color: #cfc0c5;
+
+    user-select: none;
 }
 
-.card-front{
+.card_row{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 4px;
-    padding: 7px 10px;
-    z-index: 1px;
-}
-
-.card_info_icon{
-    position: absolute;
-    top: 7px;
-    right: 8px;
-    font-size: 0.9rem;
-    color: black;
-}
-
-.card-back{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 10px;
-    transform: rotateY(180deg);
-    transform: rotateX(180deg);
-}
-
-.card_title{
-    justify-self: center;
-    align-self: center;
-    font-size: 1.2rem;
-    font-weight: 700;
-    line-height: 1.15rem;
-    width: 100%;
-    margin: 0px 5px;
-    overflow-wrap: anywhere;
+    align-items: baseline;
+    gap: 6px;
 }
 
 .card_id{
-    font-size: 0.85rem;
+    flex-shrink: 0;
+    font-size: 0.7rem;
 }
 
-.card_price{
-    justify-self: flex-end;
-    align-self: center;
-    font-size: 1.15rem;
-    line-height: 1.1rem;
-    font-weight: 500;
-    margin: auto 2px 0px 2px;
-    text-align: center;
-    width: 100%;
+.card_title{
+    flex: 1;
+    font-size: 0.9rem;
+    font-weight: 700;
     overflow-wrap: anywhere;
 }
 
-.card_description{
-    font-size: 1rem;
-    line-height: 0.8rem;
+.card_price{
+    flex-shrink: 0;
+    font-size: 0.9rem;
     font-weight: 500;
-    margin: 10px;
-    line-height: 1rem;
+    white-space: nowrap;
 }
 
-.flip-exit{
-    transform: rotateX(0deg);
-}
-
-.flip-exit-active{
-    transform: rotateX(180deg);
-    transition: transform 300ms;
-    transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
-}
-
-.flip-exit-done{
-    transform: rotateX(180deg);
-}
-
-.flip-enter{
-    transform: rotateX(180deg);
-}
-
-.flip-enter-active{
-    transform: rotateX(0deg);
-    transition: transform 300ms;
-    transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
-
-}
-
-.flip-enter-done{
-    transform: rotateX(0deg);
+.card_description{
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 400;
+    overflow-wrap: anywhere;
 }

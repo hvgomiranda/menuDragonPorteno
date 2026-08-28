@@ -2,9 +2,12 @@
     position: fixed;
     inset: 0;
     z-index: 100;
-    background-color: #4a4b4f;
-    transform: translateX(100%);
-    transition: transform 0.3s ease;
+    background-color: rgb(49 45 45 / 55%);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -14,20 +17,21 @@
 }
 
 .schedule-overlay.open{
-    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .schedule-close{
-    align-self: flex-end;
+    align-self: flex-start;
     background: none;
     border: none;
     cursor: pointer;
-    color: #8b2c34;
+    color: #cfc0c5;
     padding: 5px;
 }
 
 .schedule-title{
-    color: black;
+    color: #cfc0c5;
     text-align: center;
     margin: 10px 0 25px 0;
 }
@@ -47,10 +51,17 @@
     gap: 5px;
     padding: 15px;
     border: black 3px solid;
-    background-color: #8b2c34;
+    background-color: rgb(143 16 23 / 50%);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     border-radius: 5px;
-    color: black;
+    color: #cfc0c5;
     text-align: center;
+}
+
+.schedule-row.today{
+    background-color: rgb(207 192 197 / 50%);
+    color: rgb(143 16 23);
 }
 
 .schedule-dia{
